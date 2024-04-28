@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
-#include "tasks/string_.h"
-#include "string_test.h"
+#include "string_.h"
+#include "testString_.h"
 
 void assertString(const char *expected, char *got,char const *fileName, char const *funcName, int line) {
     if (strcmp(expected, got)) {
